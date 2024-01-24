@@ -1,0 +1,224 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.p-20 {
+  padding: 20px !important;
+}
+
+.m-50 {
+  margin: 50px;
+}
+
+.margin-5 {
+  margin: 5px;
+}
+
+.topnav_style {
+  padding: 20px;
+  background-color: #61dafb;
+}
+
+.text_topnav {
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  text-align: left;
+  color: #fff;
+  align-items: center;
+}
+
+.custom-modal {
+  transition: right 0.5s ease-in-out !important;
+}
+
+.custom-modal1 {
+  margin-right: 0 !important;
+}
+
+.custom-modal1 .modal-content {
+  background-color: rgb(115, 240, 66);
+  color: #fff !important;
+}
+
+.modal-open .modal {
+  top: 0 !important;
+  left: 60% !important;
+  right: 0 !important;
+  width: 40% !important;
+  height: 100vh !important;
+  overflow: auto !important;
+  outline: 0 !important;
+}
+
+.modal.show .modal-dialog {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.modal-header {
+  background-color: #61dafb;
+  color: #fff;
+}
+
+/* .modal-body {
+  overflow: auto !important;
+} */
+
+.modal-header button {
+  display: none !important;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: hsl(120, 86%, 41%);
+  height: 10px;
+  width: 10px !important;
+  margin-top: 10px;
+}
+
+.circle1 {
+  border-radius: 50%;
+  background-color: hsl(0, 82%, 51%);
+  height: 10px;
+  width: 10px !important;
+  margin-top: 10px;
+  margin-left: 20px !important;
+}
+
+.circle2 {
+  background-color: hsl(120, 2%, 53%);
+  margin-top: 36px !important;
+}
+
+.padding-2 {
+  padding: 2px;
+}
+
+.m-l-0 {
+  margin-left: 0px !important;
+}
+
+.m-t-0 {
+  margin-top: 0px !important;
+}
+
+.m-b-0 {
+  margin-bottom: 0px !important;
+}
+
+.m-l-20 {
+  margin-left: 20px !important;
+}
+
+.m-l-15 {
+  margin-left: 15px !important;
+}
+
+.add_navlink {
+  text-decoration: underline !important;
+  color: #16bae7 !important;
+  margin-left: 30px !important;
+}
+
+.error_text {
+  color: rgb(170, 18, 18) !important;
+  margin-left: 50px;
+}
+
+.m-t-20 {
+  margin-top: 20px !important;
+}
+
+.m-t-6 {
+  margin-top: 6px !important;
+}
+
+.remove_btn {
+  height: 40px;
+  width: 50px;
+  background-color: #b6e6f3 !important;
+  border: none !important;
+
+  & :hover {
+    background-color: #b6e6f3 !important;
+  }
+}
+
+.bi-dash-lg {
+  display: flex !important;
+  font-size: 24px !important;
+}
+
+.padding-30 {
+  padding: 30px !important;
+}
+
+.save_btn {
+  background-color: #61dafb !important;
+  color: #fff;
+  border: none !important;
+}
+
+.modal-footer {
+  background-color: #d2e2e952 !important;
+  justify-content: flex-start !important;
+}
+
+.cancel_btn {
+  background-color: #fff !important;
+  color: rgb(209, 20, 83) !important;
+  border: none !important;
+}
+
+.container ::marker {
+  font-size: 25px !important;
+}
+
+.bi-arrow-left-short {
+  font-size: 30px !important;
+  padding-top: 3px;
+  margin-right: 5px;
+}
+
+.m-r-20 {
+  margin-right: 20px;
+}
+
+.font-size-16 {
+  font-size: 16px !important;
+}
